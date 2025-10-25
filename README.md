@@ -1,5 +1,4 @@
-This is a script for taking screenshots at interval. I created it in 2015 year. The script is based on this [post]([url](https://www.sysadmins.lv/blog-ru/delaem-skrinshoty-sredstvami-powershell.aspx)) 
-
+This is a script for taking screenshots at interval. I created it in 2015 year. The script is based on this [post](https://www.sysadmins.lv/blog-ru/delaem-skrinshoty-sredstvami-powershell.aspx) 
 
 - 1 - path - folder fpr screenshots
 - 2 - Interval - interval beetwen  (based on ping)
