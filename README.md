@@ -13,12 +13,12 @@ This is a script for taking screenshots at interval. I created it in 2015 year. 
 
 **Example exe:**
 
-- screen.exe -Arguments -Path "C:\new folder" -Interval "15" -ScreenFormat "jpg"
+- screen.exe -Arguments -Path "C:\new folder" -Interval 15 -ScreenFormat "jpg"
 
 **Example ps1:**
 
-- powershell.exe -ExecutionPolicy Bypass -NoProfile -File "screen.ps1" -Path "C:\" -Interval "15" -ScreenFormat "jpg"
-- powershell.exe -ExecutionPolicy Bypass -NoProfile -File "screen.ps1" -Path "C:\new folder" -Interval "15" -ScreenFormat "jpg"
+- powershell.exe -ExecutionPolicy Bypass -NoProfile -File "screen.ps1" -Path "C:\" -Interval 15 -ScreenFormat "jpg"
+- powershell.exe -ExecutionPolicy Bypass -NoProfile -File "screen.ps1" -Path "C:\new folder" -Interval 15 -ScreenFormat "jpg"
 
 Exe file without console. Quality is not regulated.
 
@@ -40,4 +40,4 @@ Check your execultionpolicy
 - setup.bat - run setup.ps1
 - screen.ini - file settings
 
-C:\SCREENSHOTER>screen.exe -Arguments -Path "\\\\192.168.9.15\store\SCREEN\technical" -Interval "15" -ScreenFormat "jpg"
+C:\SCREENSHOTER>screen.exe -Arguments -Path "\\\\192.168.9.15\store\SCREEN\technical" -Interval 15 -ScreenFormat "jpg"
