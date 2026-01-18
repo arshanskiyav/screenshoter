@@ -33,11 +33,9 @@ Check your execultionpolicy
 
 	PS2EXE compilation command:
 
-	PS C:\> ps2exe.ps1 -inputFile C:\screen.ps1 C:\screen.exe -sta -noConsole
-- screen.ps1 - orginal script
-- screen.exe.config - created after compilation
+	PS C:\> ps2exe.ps1 -inputFile C:\screen.ps1 C:\screen.exe -sta -noConsole -noOutput -noError
+- screen.ps1 - orginal script 
 - screen_debug.exe - with confole
-- screen_debug.exe.config
 - setup.ps1 - script for install or unistall
 - setup.bat - run setup.ps1
 - screen.ini - file settings
